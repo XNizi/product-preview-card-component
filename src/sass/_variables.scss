@@ -1,0 +1,29 @@
+@mixin Display {
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	line-height: 100%;
+	font-size: 3.2rem;
+}
+@mixin Body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	line-height: 23px;
+	font-weight: 500;
+}
+@mixin ButtonText {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+@mixin Overline {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 5px;
+}
+$pureWhite: #fff;
+$cream: #f2eae2;
+$aurometalSaurus: #6c7289;
+$deepAquamarine: #3d8168;
+$deepAquamarineHover: #1a4032;
+$gunmetal: #1c232b;
